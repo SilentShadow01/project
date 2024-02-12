@@ -3,30 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
+    <title>Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
 
+    </style>
 </head>
 <body>
-    <main class="bg-dark">
-        <div class="card">
-            <div class="card-header bg-info bg-gradient">
-                <h1 class="text-center text-light">Hi! My Name is Mark Vincent,</h1>
-            </div>
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h3 class="d-flex justify-content-justify">Greetings! I am Mark Vincent De Jesus, 23 Years old.</h3>
+    <div class="page-wrapper">
+        <header class="header fixed-top" style="background-color: #29ADB2;">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img class="logo" src="silent_logo_2.png" alt="logo.png">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarScroll">
+                            <div class="d-flex justify-content-center">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link active fw-semibold" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link fw-semibold" href="#">About Me</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link fw-semibold" href="#">Projects</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-6">
-                        <img class="rounded img-fluid" style="height: 250px" src="GRADPIC.JPG" alt="Graduation Picture">
+                </nav>           
+            </div>
+        </header>
+        <main class="main-content">
+            <div class="content-wrapper" id="gradient-background">
+                <div class="d-flex justify-content-center" id="top-greetings">
+                    <div class="row greetings-wrapper">
+                        <p class="h2 text-center">
+                            <span id="typed-text-1"></span><span class="fw-semibold" id="typed-text-2"></span><br>
+                        </p>
+                        <p class="h2 text-center"><span id="typed-text-3"></span><span class="fw-semibold" id="typed-text-4"></span></p>
+                    </div>                    
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="row image-wrapper">
+                        <img class="rounded" id="profile-img" src="profile.png" alt="profile.png">
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center pt-2">
+                    <div class="row description-wrapper">
+                        <p class="h2 text-center"><span class="fw-semibold" id="typed-text-5"></span>
+                        </p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center pt-2">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-8">
+                            <div class="hero-social-list">
+                                <ul class="d-inline-flex fs-1">
+                                    <li>
+                                        <a class="contact-icon text-info-emphasis px-2" href="https://github.com/SilentShadow01" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                                    </li>
+                                    <li>
+                                        <a class="contact-icon text-info-emphasis px-2" href="https://www.facebook.com/MVinCentDeJesus/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a class="contact-icon text-info-emphasis px-2" href="https://www.linkedin.com/in/mark-vincent-de-jesus-9048242aa/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                                    </li>
+                                    <li>
+                                        <a class="contact-icon text-info-emphasis px-2" href="mailto:markvincentd625@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="icon-wrapper mt-5" style="background-color: rgba(255, 255, 255, 0.5);">
+                    <div class="row p-2">
+                        <ul class="d-inline-flex d-flex justify-content-between mb-0">
+                            <li>
+                                <img class="tech-img" src="bootstrap.png" alt="bootstrap.png">
+                            </li>
+                            <li>
+                                <img class="tech-img" src="java-script.png" alt="java-script.png">
+                            </li>
+                            <li>
+                                <img class="tech-img" src="c-sharp.png" alt="c-sharp.png">
+                            </li>
+                            <li>
+                                <img class="tech-img" src="css-3.png" alt="css-3.png">
+                            </li>
+                            <li>
+                                <img class="tech-img" src="html.png" alt="html.png">
+                            </li>
+                            <li>
+                                <img class="tech-img" src="java.png" alt="java.png">
+                            </li>
+                            <li>
+                                <img class="tech-img" src="mysql.png" alt="mysql.png">
+                            </li>
+                            <li>
+                                <img class="tech-img" src="php.png" alt="php.png">
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </div>
-    </main>
-    <footer></footer>
+        </main>    
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- Add this script to control typing animation -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const text1 = document.getElementById('typed-text-1');
+    const text2 = document.getElementById('typed-text-2');
+    const text3 = document.getElementById('typed-text-3');
+    const text4 = document.getElementById('typed-text-4');
+    const text5 = document.getElementById('typed-text-5');
+
+    function typeText(element, text, delay) {
+        setTimeout(() => {
+            let index = 0;
+            const typingInterval = setInterval(() => {
+                element.textContent += text[index];
+                index++;
+                if (index >= text.length) {
+                    clearInterval(typingInterval);
+                }
+            }, 100); // Adjust typing speed as needed
+        }, delay);
+    }
+
+    // Start typing animations
+    typeText(text1, 'Hello! I am', 1000); // Delay in milliseconds
+    typeText(text2, ' Mark Vincent,', 2000); // Adjust delay as needed
+    typeText(text3, ' A', 3600); // Adjust delay as needed
+    typeText(text4, ' Junior Web Developer.', 3800); // Adjust delay as needed
+    typeText(text5, ' Welcome to my portfolio!', 6000); // Adjust delay as needed
+});
+</script>
 
 </body>
 </html>

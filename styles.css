@@ -1,0 +1,68 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+#profile-img{
+    height: 30vh;
+}
+.tech-img{
+    height: 8vh;
+}
+#top-greetings {
+    padding-top: 120px;
+}
+/* Media query for mobile screens */
+@media screen and (max-width: 767px) {
+    /* Styles for mobile screens */
+    img.logo {
+        height: 10vw; /* Set height to 5vw for mobile screens */
+    }
+    .navbar-collapse {
+        justify-content: center !important; /* Center align the collapsed navbar */
+    }
+    #profile-img{
+        height: 35vh;
+    }
+    a.text-info-emphasis.px-1 {
+        font-size: 3rem;
+    }
+    .tech-img{
+        height: 5vh;
+    }
+    .contact-icon {
+        font-size: 40px!important;
+    }
+}
+.d-inline-flex {
+    list-style: none;
+}
+
+/* CSS FOR BACKGROUND */
+#gradient-background {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+      45deg,
+      #7BD3EA,
+      #A1EEBD
+    ); /* Gradient background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    border-radius: 10px; /* Rounded corners */
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #gradient-background::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0.1) 1px,
+        transparent 1px
+      ),
+      linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+    pointer-events: none; /* Allow clicking through the pattern layer */
+  }
+  /* CSS for the typing animation */
