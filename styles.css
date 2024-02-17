@@ -64,6 +64,9 @@
     .add-margin {
         margin-left: 10px;
     }
+    .align-me {
+        text-align: center!important;
+    }
 }
 .d-inline-flex {
     list-style: none;
